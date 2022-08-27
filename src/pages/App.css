@@ -1,0 +1,43 @@
+.app {
+    padding: 20px 0;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.text-limit {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -5px 0;
+    justify-content: center;
+}
